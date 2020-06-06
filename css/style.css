@@ -19,3 +19,25 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  .flex_nav_container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 60px;
+    background-color: slategray;
+  }
+
+  .nav_item {
+    padding: 5px;
+    height: 40px;
+    margin: 10px;
+    line-height: 40px;
+    text-align: center;
+    background-color: powderblue;
+    border: solid darkgray 2px;
+    border-radius: 10px;
+  }
