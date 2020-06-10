@@ -117,6 +117,12 @@ h1 {
     transform: scale(1.2);
 }
 
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 .v_center {
     position: absolute;
     top: 50%;
