@@ -79,7 +79,7 @@ h1 {
     color: var(--nav_item_text)
 }
 
-#main_div {
+.main_div {
     margin-top: 60px;
     width: 100%;
 }
