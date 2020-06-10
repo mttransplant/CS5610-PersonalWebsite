@@ -125,6 +125,28 @@ h1 {
     border: 3px solid var(--nav_item_border);
     border-radius: 25px;
     margin: auto;
+    z-index: 1;
+}
+
+.v_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#success {
+    width: 75%;
+    height: 75%;
+    margin: 0;
+    background-color: var(--nav_bg);
+    border: 3px solid var(--nav_item_border);
+    border-radius: 25px;
+    visibility: hidden;
+    text-align: center;
+    font-size: 28px;
+    z-index: 3;
 }
 
 #target {
@@ -135,4 +157,5 @@ h1 {
     height: 50px;
     border-radius: 25px;
     background-color: var(--nav_item_text);
+    z-index: 2;
 }
