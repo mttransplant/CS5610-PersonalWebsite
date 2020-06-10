@@ -75,6 +75,10 @@ body {
     background-color: var(--page-bg);
 }
 
+h1 {
+    color: var(--nav_item_text)
+}
+
 #main_div {
     margin-top: 60px;
     width: 100%;
@@ -111,4 +115,20 @@ body {
 
 .nav_item:hover {
     transform: scale(1.2);
+}
+
+#game_board {
+    width: 75%;
+    height: 300px;
+    background-color: var(--nav_item_bg);
+    border: 3px solid var(--nav_item_border);
+    border-radius: 25px;
+    margin: auto;
+}
+
+#target {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--nav_item_text);
 }
