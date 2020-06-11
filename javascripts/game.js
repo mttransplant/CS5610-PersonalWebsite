@@ -4,7 +4,7 @@
 let target = $('#target'),
     gameBoard = $('#game_board'),
     success = $('#success'),
-    restart = $('#restart'),
+    restart = $('.restart'),
     targetHeight = target.height(),
     targetWidth = target.width(),
     targetRadius = targetHeight / 2,
