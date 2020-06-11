@@ -82,7 +82,16 @@ body {
 h1,
 h2,
 table {
-    color: var(--nav_item_text)
+    color: var(--nav_item_text);
+}
+
+h1,
+h2 {
+    font-family: 'Marck Script', cursive;
+}
+
+table {
+    font-family: 'Bad Script', cursive;
 }
 
 .center {
