@@ -27,7 +27,11 @@ $(gameBoard).mousemove(function(e) {
     }
 });
 
-$(target).click(stop_the_game);
+// This version works fine on computers, but doesn't behave as expected on mobile/touch devices
+// $(target).click(stop_the_game);
+
+// This version makes the game behave as expected on mobile devices
+$(target).on('click touchstart', stop_the_game);
 
 $(restart).click(restart_the_game);
 
